@@ -1,31 +1,17 @@
-/* Quick Quiz: Write a program with three functions
-1. Good morning function which prints “good morning”.
-2. Good afternoon function which prints “good afternoon”.
-3. Good night function which prints “good night”.
-main() should call all of these in order 1→2→3 */
+// Write a function to convert Celsius temperature into Fahrenheit.
 
 #include <stdio.h>
 
-void Good_Morning();
-void Good_Afternoon();
-void Good_Night();
+float c2f(int);
 
-void Good_Morning(){
-    printf("Good Morning\n");
-}
-
-void Good_Afternoon(){
-    printf("Good Afternoon\n");
-}
-
-void Good_Night(){
-    printf("Good Night\n");
+float c2f(int a){
+    return a*(9.0/5.0)+32.0;
 }
 
 int main() {
-
-    Good_Morning();
-    Good_Afternoon();
-    Good_Night();
-    return 0;
+    int b;
+    printf("Enter the temp in celcius: ");
+    scanf("%d", &b);
+    printf("Temp in fehrenheit is: %f", c2f(b));
+        return 0;
 }
