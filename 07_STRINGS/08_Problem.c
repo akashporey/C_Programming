@@ -23,7 +23,7 @@ int main() {
         printf("Yes, this character is present.");
     }
     else{
-        printf("No, this character not present.");
+        printf("No, this character is not present.");
     }
     
     return 0;
