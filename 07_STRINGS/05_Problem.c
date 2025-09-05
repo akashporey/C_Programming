@@ -6,13 +6,13 @@
 #include <string.h>
 
 int main() {
-    char st[] = "Akash";
+    char st[] = "How Are You?";
     for (int i = 0; i < strlen(st); i++)
     {
         st[i]=st[i]+1;
     }
 
-    printf("%s", st);
+    printf("Encrypted string: %s", st);
     
     return 0;
 }

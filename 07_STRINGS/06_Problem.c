@@ -6,13 +6,13 @@
 #include <string.h>
 
 int main() {
-    char st[] = "Blbti";
+    char st[] = "Ipx!Bsf!Zpv@";
     for (int i = 0; i < strlen(st); i++)
     {
         st[i]=st[i]-1;
     }
 
-    printf("%s", st);
+    printf("Decrypted String: %s", st);
     
     return 0;
 }
