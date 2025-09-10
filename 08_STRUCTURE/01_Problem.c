@@ -1,5 +1,5 @@
-/* Create a two-dimensional vector using structures in C.
-*/
+// Create a two-dimensional vector using structures in C.
+
 
 #include <stdio.h>
 
