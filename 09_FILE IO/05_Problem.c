@@ -1,5 +1,5 @@
-/* Write a program to modify a file containing an integer to double its value.
-*/
+// Write a program to modify a file containing an integer to double its value.
+
 
 #include <stdio.h>
 
